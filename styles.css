@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: rgb(23, 80, 150);
+    background-size: cover;
+    background-image: url(sea.jpg);
+
+    
+}
+
+#fishContainer{
+    font-family: "Micro 5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: azure;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2em;
+    flex-wrap: wrap;
+}
+
+.fished{
+    background-color: rgb(18, 18, 87);
+    padding: 1em;
+    border-radius: 1em;
+    color: aliceblue;
+    width: 750px;
+    font-family: "Rubik Puddles", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+button{
+    width: 500px;
+    background-color: aquamarine;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    border: 1em dotted mediumturquoise;
+    color: cadetblue;
+    font-family: "Micro 5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.25em;
+}
+
+.fished img{
+    width: 100%;
+    border-radius: 1em;
+}
+
+h1{
+    font-family: "Flavors", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: aliceblue;
+}
+
+h3{
+    font-size: 1em;
+    color: aliceblue;
+}
+
+.earnings{
+    font-family: "Flavors", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: aliceblue;
+
+}
+
+button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
