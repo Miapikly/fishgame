@@ -83,6 +83,7 @@ const fish = [
         price: "125",
         image: "lumpfish.webp",
         amount: 10
+    }
 ]
 
 //global variables
