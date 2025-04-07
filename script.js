@@ -103,7 +103,7 @@ let scores = [];
 function startFish(){
 
     let html="";
-    let randomNumber=Math.floor(Math.random()*193);
+    let randomNumber=Math.floor(Math.random()*213);
     console.log(randomNumber);
     let number = randomNumber;
     console.log(profit);
@@ -299,13 +299,13 @@ function startFish(){
         container.innerHTML=html;
 
         profit=0
-    }else if(number<202 && number>192){
+    }   else if(number<202 && number>192){
         console.log(fish[12]);
         html +=
         `<div class="fished">
         <img src="${fish[12].image}" width="500px">
         <h3>Name: ${fish[12].name}</h3>
-        <h3>Price: ${fish[12].price}</h3>
+        <h3>Price: $${fish[12].price}</h3>
         </div>`;
         container.innerHTML=html;
 
@@ -316,11 +316,12 @@ function startFish(){
         `<div class="fished">
         <img src="${fish[13].image}" width="500px">
         <h3>Name: ${fish[13].name}</h3>
-        <h3>Price: ${fish[13].price}</h3>
+        <h3>Price: $${fish[13].price}</h3>
         </div>`;
         container.innerHTML=html;
 
         profit=0
+    }
     
     
 
