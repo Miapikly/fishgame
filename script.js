@@ -71,7 +71,18 @@ const fish = [
         price: "-15",
         image: "open-hands.jpg",
         amount: 50
-    }
+    },
+    {
+        name: "Longhorn Cowfish",
+        price: "100",
+        image: "cowfish.jpg",
+        amount: 10
+    },
+    {
+        name: "Lumpfish",
+        price: "125",
+        image: "lumpfish.webp",
+        amount: 10
 ]
 
 //global variables
@@ -287,7 +298,28 @@ function startFish(){
         container.innerHTML=html;
 
         profit=0
-    }
+    }else if(number<202 && number>192){
+        console.log(fish[12]);
+        html +=
+        `<div class="fished">
+        <img src="${fish[12].image}" width="500px">
+        <h3>Name: ${fish[12].name}</h3>
+        <h3>Price: ${fish[12].price}</h3>
+        </div>`;
+        container.innerHTML=html;
+
+        profit=0
+    }else if(number<212 && number>202){
+        console.log(fish[13]);
+        html +=
+        `<div class="fished">
+        <img src="${fish[13].image}" width="500px">
+        <h3>Name: ${fish[13].name}</h3>
+        <h3>Price: ${fish[13].price}</h3>
+        </div>`;
+        container.innerHTML=html;
+
+        profit=0
     
     
 
