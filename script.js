@@ -75,7 +75,7 @@ const fish = [
     {
         name: "Longhorn Cowfish",
         price: "100",
-        image: "cowfish.jpg",
+        image: "cowfish.webp",
         amount: 10
     },
     {
