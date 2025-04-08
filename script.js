@@ -332,8 +332,6 @@ function startFish(){
         <h3>Price: $${fish[12].price}</h3>
         </div>`;
         container.innerHTML=html;
-
-        profit=0
     }else if(number<212 && number>202){
         console.log(fish[13]);
         html +=
