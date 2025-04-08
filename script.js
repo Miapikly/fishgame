@@ -89,6 +89,24 @@ const fish = [
         price: "110",
         image: "sergeant.jpg",
         amount: 15
+    },
+    {
+        name: "Catshark",
+        price: "250",
+        image: "catshark.webp",
+        amount: 5
+    },
+    {
+        name: "Catfish",
+        price: "50",
+        image: "catfish.jpg",
+        amount: 25
+    },
+    {
+        name: "Octopus",
+        price: "210",
+        image: "octopus.jpg",
+        amount: 10
     }
 ]
 
@@ -109,7 +127,7 @@ let scores = [];
 function startFish(){
 
     let html="";
-    let randomNumber=Math.floor(Math.random()*228);
+    let randomNumber=Math.floor(Math.random()*268);
     console.log(randomNumber);
     let number = randomNumber;
     console.log(profit);
@@ -338,11 +356,40 @@ function startFish(){
         container.innerHTML=html;
 
         profit=0
+    }else if(number<232 && number>227){
+        console.log(fish[15]);
+        html +=
+        `<div class="fished">
+        <img src="${fish[15].image}" width="500px">
+        <h3>Name: ${fish[15].name}</h3>
+        <h3>Price: $${fish[15].price}</h3>
+        </div>`;
+        container.innerHTML=html;
+
+        profit=0
+    }else if(number<257 && number>232){
+        console.log(fish[16]);
+        html +=
+        `<div class="fished">
+        <img src="${fish[16].image}" width="500px">
+        <h3>Name: ${fish[16].name}</h3>
+        <h3>Price: $${fish[16].price}</h3>
+        </div>`;
+        container.innerHTML=html;
+
+        profit=0
+    }else if(number<267 && number>257){
+        console.log(fish[17]);
+        html +=
+        `<div class="fished">
+        <img src="${fish[17].image}" width="500px">
+        <h3>Name: ${fish[17].name}</h3>
+        <h3>Price: $${fish[17].price}</h3>
+        </div>`;
+        container.innerHTML=html;
+
+        profit=0
     }
-    
-    
-
-
 }
 
 //function to restart the game
