@@ -83,6 +83,12 @@ const fish = [
         price: "125",
         image: "lumpfish.webp",
         amount: 10
+    },
+    {
+        name: "Sergeant Major",
+        price: "110",
+        image: "sergeant.jpg",
+        amount: 15
     }
 ]
 
@@ -103,7 +109,7 @@ let scores = [];
 function startFish(){
 
     let html="";
-    let randomNumber=Math.floor(Math.random()*213);
+    let randomNumber=Math.floor(Math.random()*228);
     console.log(randomNumber);
     let number = randomNumber;
     console.log(profit);
@@ -317,6 +323,17 @@ function startFish(){
         <img src="${fish[13].image}" width="500px">
         <h3>Name: ${fish[13].name}</h3>
         <h3>Price: $${fish[13].price}</h3>
+        </div>`;
+        container.innerHTML=html;
+
+        profit=0
+    }else if(number<227 && number>212){
+        console.log(fish[14]);
+        html +=
+        `<div class="fished">
+        <img src="${fish[14].image}" width="500px">
+        <h3>Name: ${fish[14].name}</h3>
+        <h3>Price: $${fish[14].price}</h3>
         </div>`;
         container.innerHTML=html;
 
