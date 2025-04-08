@@ -343,8 +343,6 @@ function startFish(){
         <h3>Price: $${fish[13].price}</h3>
         </div>`;
         container.innerHTML=html;
-
-        profit=0
     }else if(number<227 && number>212){
         console.log(fish[14]);
         html +=
@@ -354,8 +352,6 @@ function startFish(){
         <h3>Price: $${fish[14].price}</h3>
         </div>`;
         container.innerHTML=html;
-
-        profit=0
     }else if(number<232 && number>227){
         console.log(fish[15]);
         html +=
@@ -365,8 +361,6 @@ function startFish(){
         <h3>Price: $${fish[15].price}</h3>
         </div>`;
         container.innerHTML=html;
-
-        profit=0
     }else if(number<257 && number>232){
         console.log(fish[16]);
         html +=
@@ -376,8 +370,6 @@ function startFish(){
         <h3>Price: $${fish[16].price}</h3>
         </div>`;
         container.innerHTML=html;
-
-        profit=0
     }else if(number<267 && number>257){
         console.log(fish[17]);
         html +=
@@ -387,8 +379,6 @@ function startFish(){
         <h3>Price: $${fish[17].price}</h3>
         </div>`;
         container.innerHTML=html;
-
-        profit=0
     }
 }
 
